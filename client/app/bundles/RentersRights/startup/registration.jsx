@@ -9,6 +9,7 @@ import Resources from '../components/Resources';
 import ReportIssue from '../components/ReportIssue';
 import FindJurisdiction from '../components/FindJurisdiction';
 import RentIncrease from '../components/RentIncrease';
+import Email from '../components/Email';
 
 //import { addLocaleData } from 'react-intl';
 //import esLocaleData from 'react-intl/locale-data/es';
@@ -26,5 +27,6 @@ ReactOnRails.register({
   RentCalculator,
   RentIncrease,
   Resources,
-  FindJurisdiction
+  FindJurisdiction,
+  Email
 });

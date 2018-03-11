@@ -4,6 +4,7 @@ import classNames from 'classnames';
   */} 
 import React from 'react';
 
+
 export default function RentersHeader({ className }) {	
 {/* locale set up. Remove comment when app is translated  
 
@@ -12,6 +13,7 @@ export default function RentersHeader({ className, locale }) {
     const availableLocales = ['en'];
   */}
 
+  	
 	return (
 		<header
 			className={classNames('pt-4', className)}
@@ -40,7 +42,8 @@ export default function RentersHeader({ className, locale }) {
           				<li><a href={`/${locale}/rent-calculator`}><strong><FormattedMessage defaultMessage="Rent Calculator" id="header.rent-calculator" /></strong></a></li>
           				<li><a href={`/${locale}/resources`}><strong><FormattedMessage defaultMessage="Resources" id="header.resources" /></strong></a></li>
 						<li><a href={`/${locale}/faq`}><strong><FormattedMessage defaultMessage="FAQ" id="header.faq" /></strong></a></li> 
-		          */}
+		          */}		        		
+		        		<li><a href="/email"><strong>Email us</strong></a></li> 
 		        		<li><a href="/report-issue"><strong>Report Rental Issue</strong></a></li> 
 					    <li><a href="/resources"><strong>Resources</strong></a></li>
 						<li><a href="/about"><strong>About</strong></a></li> 

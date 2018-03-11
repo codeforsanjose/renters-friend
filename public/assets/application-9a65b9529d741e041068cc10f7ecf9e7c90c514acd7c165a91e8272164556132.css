@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
+/*** Variables ***/
+/* colors */
+/* fonts */
+/* Center the content and keep it under 750px*/
+@media (min-width: 1200px) {
+  /* line 19, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+  .content-container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
+/* NavBar */
+/* line 26, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #1A7DD7;
+  /*Sets the text hover color on navbar*/
+  background-color: #b6d2f3;
+}
+
+/* line 32, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-toggle.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #b6d2f3;
+  color: #fff;
+}
+
+/* line 37, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #1A7DD7;
+  /*BACKGROUND color for active*/
+  /*background-color: white;*/
+  /*box-shadow: 10px 10px bd;*/
+}
+
+/* line 44, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* line 48, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* line 52, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default {
+  background-color: #1A7DD7;
+  border-color: white;
+}
+
+/* line 57, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+}
+
+/* line 60, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  /*Change active text color here*/
+}
+
+/* line 64, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+/* line 65, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.navbar-default .navbar-brand:hover {
+  background-color: #b6d2f3;
+  color: #1A7DD7;
+}
+
+/* line 73, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.nav-pills > li > a:hover {
+  background-color: #b6d2f3;
+  color: #1A7DD7;
+}
+
+/* line 78, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  background-color: #1A7DD7;
+}
+
+/* line 82, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+body {
+  padding-top: 70px;
+  font-family: "Karla", sans-serif;
+  background-color: #fff;
+}
+
+/* line 88, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Karla", sans-serif;
+  color: #1A7DD7;
+}
+
+/* line 93, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+h1 {
+  font-weight: 100;
+  font-family: "Karla", sans-serif;
+}
+
+/* Header */
+/* line 99, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.page-header {
+  border-bottom: #1A7DD7;
+}
+
+/* line 103, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.language-paragraph {
+  font-size: 120%;
+}
+
+/* Buttons */
+/* line 109, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-sq-lg {
+  width: 250px !important;
+  height: 250px !important;
+  font-size: 120%;
+}
+
+/* line 115, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-default {
+  background-color: #1A7DD7;
+}
+
+/* line 119, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-eviction, .btn-renters, .btn-shelter, .btn-issue, .btn-legal, .btn-location {
+  color: #fff;
+  border: 1px solid #fff;
+}
+/* line 122, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-eviction:hover, .btn-renters:hover, .btn-shelter:hover, .btn-issue:hover, .btn-legal:hover, .btn-location:hover {
+  border: 3px solid white;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* line 129, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-eviction {
+  background-color: #03275A;
+}
+
+/* line 133, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-renters {
+  background-color: #1A7DD7;
+}
+
+/* line 137, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-shelter {
+  background-color: #F2B809;
+}
+
+/* line 141, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-issue {
+  background-color: #139EB2;
+}
+
+/* line 145, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-legal {
+  background-color: #F34605;
+}
+
+/* line 149, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.btn-location {
+  background-color: #07BD00;
+}
+
+/* line 153, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.glyphicon-file:before, .glyphicon-question-sign:before, .glyphicon-signal:before, .glyphicon-home:before, .glyphicon-map-marker:before, .glyphicon-pencil:before {
+  font-size: 750%;
+}
+
+/* Panel */
+/* line 158, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.panel-info > .panel-heading {
+  color: white;
+  background-color: #1A7DD7;
+}
+
+/* line 163, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.panel-info > .panel-heading + .panel-collapse > .panel-body {
+  background-color: #1A7DD7;
+  border-top-color: #1A7DD7;
+}
+
+/* Links */
+/* line 170, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.home-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 177, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+a.list-group-iem:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+  background-color: #b6d2f3;
+}
+
+/* line 181, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+a.list-group-item-danger, button.list-group-item-danger {
+  background-color: #1A7DD7;
+}
+
+/* line 185, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+a.list-group-item .list-group-item-heading {
+  color: white;
+}
+
+/* Error */
+/* line 190, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.error h1 {
+  font-weight: 100;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+}
+
+/* line 196, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.error h2 {
+  font-weight: 90;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+}
+
+/* line 202, /Users/mishraak/workspace/renters-rights/app/assets/stylesheets/custom.scss */
+.error p {
+  font-weight: 90;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
