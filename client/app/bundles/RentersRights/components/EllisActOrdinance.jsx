@@ -30,7 +30,7 @@ export default class EllisActOrdinance extends React.Component {
                       </div>
                       <div id="collapse1" className="panel-collapse collapse">
                         <div className="panel-body">
-                        <p>This ordinance applies to all apartments with 4+ units covered by the Apartment Rent Ordinance in the City of San José. </p>
+                        <p>This ordinance applies to all apartments with 3+ units covered by the Apartment Rent Ordinance in the City of San José. </p>
                         </div>
                       </div>
                     </div>
@@ -39,7 +39,7 @@ export default class EllisActOrdinance extends React.Component {
                       <div className="panel-heading">
                         <h4 className="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                          Removal from the Rental Market</a>
+                          Removal from the Rental Market - Tenants</a>
                         </h4>
                       </div>
                       <div id="collapse2" className="panel-collapse collapse">
@@ -64,7 +64,7 @@ export default class EllisActOrdinance extends React.Component {
                       <div className="panel-heading">
                         <h4 className="panel-title">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                          Renter's Rights and Responsibilities</a>
+                          Tenant Rights and Responsibilities</a>
                         </h4>
                       </div>
                       <div id="collapse3" className="panel-collapse collapse">
@@ -103,6 +103,53 @@ export default class EllisActOrdinance extends React.Component {
                         <p>For units re-rented after 10 years, tenants will have the right to return only. </p>
                         <p>If apartments were demolished and rebuilt, tenants do not have a right to return to the newly constructed apartments.
                         </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default">
+                      <div className="panel-heading">
+                        <h4 className="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                          What to Expect for Property Owners</a>
+                        </h4>
+                      </div>
+                      <div id="collapse6" className="panel-collapse collapse">
+                        <div className="panel-body">
+                          <p>The Ellis Act Ordinance allows a property owner seeking in good faith to recover possession of a rental unit and remove units from rental housing use if the property owner plans on demolishing or permanently withdrawing the units from the rental housing market.</p>
+                          <p>What Property Owners Must Do (according to the City of San Jose):</p>
+                          <ul>
+                            <li>Noticing – All households must be provided with a minimum of 120 days’ notice. Special populations including residents over the age of 62, disabled, terminally/catastrophically ill, and residents with school-aged children must be given up to one-year notice.</li>
+                            <li>Relocation Benefits – All tenants are eligible to receive relocation benefits. Special populations including low-income residents, residents over the age of 62, disabled, terminally/catastrophically ill, and residents with school-aged children are eligible for additional relocation benefits.</li>
+                            <li>Right to Return – If the apartments return to the rental market within ten years, tenants have a right to return to their apartments. If the apartment is demolished and rebuilt, the right to return does not apply.</li>
+                            <li>Subject to the Apartment Rent Ordinance – If a property owner demolishes existing rent controlled apartments, all new apartments built will be subject to the City’s Apartment Rent Ordinance.</li>
+                          </ul>
+                          <p>Additional resources for property owners:</p>
+                          <ul>
+                            <li><a href='http://sanjose.granicus.com/MetaViewer.php?view_id=&event_id=2680&meta_id=629076' target='_blank'>City of San Jose Housing Department staff presentation (April 2017).</a></li>
+                            <li><a href='http://www.sanjoseca.gov/DocumentCenter/View/70261' target='_blank'>Ellis Act Fact Sheet for more details on the Ordinance.</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="panel panel-default">
+                      <div className="panel-heading">
+                        <h4 className="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                          Policy Updates</a>
+                        </h4>
+                      </div>
+                      <div id="collapse7" className="panel-collapse collapse">
+                        <div className="panel-body">
+                          <p>On Tuesday, April 24, 2018, the City Council took action to amend the Ellis Act Ordinance, Tenant Protection Ordinance (TPO), and Apartment Rent Ordinance (ARO). Over the past several months, the City of San Jose has  worked with community and stakeholders to develop recommendations for these challenging issues. The following list the results from the City Council meeting:</p>
+                          <p><a href='http://www.sanjoseca.gov/DocumentCenter/View/76752' target='_blank'>Amendment to the Ellis Act Ordinance:</a></p>
+                          <ul>
+                            <li>Re-control the greater of either 50% of new apartments built or the number of apartments removed from the market; </li>
+                            <li>May exempt re-control requirements if 20% of the new construction is voluntarily restricted affordable rental housing built on-site. 15% would meet the Area Median Income (AMI) levels required by the Inclusionary Ordinance and the additional 5% would be restricted to 100% AMI;  </li>
+                            <li>Include apartments buildings with three units under the Ellis Act; and </li>
+                            <li>Allow apartments built after 1979 to use the Ellis Act procedures to permanently remove a building from the rental market after providing 120-day notification and providing relocation services to impacted tenants; and</li>
+                            <li>Return with proposed ordinance after analysis to extend Ellis Act to apply to duplexes.  </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
